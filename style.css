@@ -1,0 +1,57 @@
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+/* Card */
+
+.card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.cell img {
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.cell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.cell h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
